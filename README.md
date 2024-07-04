@@ -13,11 +13,11 @@ The package is compatible with Python versions `3 >=3.7, <= 3.11`.
 Install the package from PyPi using the following pip command:
 
 ```python
-pip install zahra-package-test==1.1.1
+pip install zahra-package-test==1.1.2
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/zahra-package-test/1.1.1
+https://pypi.python.org/pypi/zahra-package-test/1.1.2
 
 ## Test the SDK
 
@@ -32,7 +32,7 @@ pytest
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -48,9 +48,9 @@ The following parameters are configurable for the API Client:
 | `backoff_factor` | `float` | A backoff factor to apply between attempts after the second try. <br> **Default: 2** |
 | `retry_statuses` | `Array of int` | The http statuses on which retry is to be done. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | `retry_methods` | `Array of string` | The http methods on which retry is to be done. <br> **Default: ['GET', 'PUT']** |
-| `api_key_credentials` | [`ApiKeyCredentials`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/custom-header-signature.md) | The credential object for Custom Header Signature |
-| `http_basic_credentials` | [`HttpBasicCredentials`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/basic-authentication.md) | The credential object for Basic Authentication |
-| `petstore_auth_credentials` | [`PetstoreAuthCredentials`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/oauth-2-implicit-grant.md) | The credential object for OAuth 2 Implicit Grant |
+| `api_key_credentials` | [`ApiKeyCredentials`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/custom-header-signature.md) | The credential object for Custom Header Signature |
+| `http_basic_credentials` | [`HttpBasicCredentials`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/basic-authentication.md) | The credential object for Basic Authentication |
+| `petstore_auth_credentials` | [`PetstoreAuthCredentials`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/oauth-2-implicit-grant.md) | The credential object for OAuth 2 Implicit Grant |
 
 The API client can be initialized as follows:
 
@@ -91,19 +91,19 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`api_key (Custom Header Signature)`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/custom-header-signature.md)
-* [`httpBasic (Basic Authentication)`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/basic-authentication.md)
-* [`petstore_auth (OAuth 2 Implicit Grant)`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/oauth-2-implicit-grant.md)
+* [`api_key (Custom Header Signature)`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/custom-header-signature.md)
+* [`httpBasic (Basic Authentication)`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/basic-authentication.md)
+* [`petstore_auth (OAuth 2 Implicit Grant)`](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/$a/https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/oauth-2-implicit-grant.md)
 
 ## List of APIs
 
-* [Pet](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/controllers/pet.md)
-* [Store](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/controllers/store.md)
-* [User](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/controllers/user.md)
+* [Pet](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/controllers/pet.md)
+* [Store](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/controllers/store.md)
+* [User](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/controllers/user.md)
 
 ## Classes Documentation
 
-* [Utility Classes](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/utility-classes.md)
-* [HttpResponse](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/http-response.md)
-* [HttpRequest](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.1/doc/http-request.md)
+* [Utility Classes](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/utility-classes.md)
+* [HttpResponse](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/http-response.md)
+* [HttpRequest](https://www.github.com/ZahraN444/zeepackage-1-python-sdk/tree/1.1.2/doc/http-request.md)
 
